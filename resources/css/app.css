@@ -1,0 +1,96 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url('../fonts/LiberationSerif-Bold.woff2') format('woff2'),
+        url('../fonts/LiberationSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url('../fonts/LiberationSerif-Regular.woff2') format('woff2'),
+        url('../fonts/LiberationSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Studio Sans';
+    src: url('../fonts/StudioSans-Bold.woff2') format('woff2'),
+        url('../fonts/StudioSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Studio Sans';
+    src: url('../fonts/StudioSans-Regular.woff2') format('woff2'),
+        url('../fonts/StudioSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.container-small {
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Liberation Serif';
+	font-weight: bold;
+}
+
+.section-heading {
+    @apply font-bold text-center text-4xl mb-10;
+}
+
+.btn {
+    @apply px-6 py-2 rounded inline-block text-center;
+}
+
+.btn-outline {
+    @apply btn border-2 border-gray-800 text-gray-800 bg-transparent;
+}
+
+.inline-btn {
+    @apply btn bg-gray-800 text-white;
+}
+
+.fullwidth-btn {
+    @apply btn w-full bg-gray-800 text-white;
+}
+
+.sticky-header-active {
+    background-color: rgba(255, 255, 255, 0.95);
+    @apply py-2;
+    transition: all 0.2s;
+}
+
+.sticky-header-active ul li a {
+    color: black;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-width {
+    width: 500px;
+    z-index: -1;
+}
