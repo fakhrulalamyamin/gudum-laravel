@@ -3,7 +3,7 @@
 	<div class="flex">
 		<div class="flex-1 bg-white rounded-xl mx-2 shadow-lg">
 			<div class="flex">
-				<div style="min-width: 150px; background-image: url(./img/hero-bg.jpg);" class="bg-cover bg-center rounded-tl-xl rounded-bl-xl"></div>
+				<div style="min-width: 150px; background-image: url(/img/hero-bg.jpg);" class="bg-cover bg-center rounded-tl-xl rounded-bl-xl"></div>
 				<div class="p-4">
 					<h3 class="font-xl mb-2">Lorem ipsum dolor sit amet consectetur.</h3>
 					<a href="#" class="fullwidth-btn">Read More</a>
@@ -12,7 +12,7 @@
 		</div>
 		<div class="flex-1 bg-white rounded-xl mx-2 shadow-lg">
 			<div class="flex">
-				<div style="min-width: 150px; background-image: url(./img/hero-bg.jpg);" class="bg-cover bg-center rounded-tl-xl rounded-bl-xl"></div>
+				<div style="min-width: 150px; background-image: url(/img/hero-bg.jpg);" class="bg-cover bg-center rounded-tl-xl rounded-bl-xl"></div>
 				<div class="p-4">
 					<h3 class="font-xl mb-2">Lorem ipsum dolor sit amet consectetur.</h3>
 					<a href="#" class="fullwidth-btn">Read More</a>
@@ -21,7 +21,7 @@
 		</div>
 		<div class="flex-1 bg-white rounded-xl mx-2 shadow-lg">
 			<div class="flex">
-				<div style="min-width: 150px; background-image: url(./img/hero-bg.jpg);" class="bg-cover bg-center rounded-tl-xl rounded-bl-xl"></div>
+				<div style="min-width: 150px; background-image: url(/img/hero-bg.jpg);" class="bg-cover bg-center rounded-tl-xl rounded-bl-xl"></div>
 				<div class="p-4">
 					<h3 class="font-xl mb-2">Lorem ipsum dolor sit amet consectetur.</h3>
 					<a href="#" class="fullwidth-btn">Read More</a>

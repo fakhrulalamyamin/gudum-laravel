@@ -1,7 +1,7 @@
-<div class="w-full fixed px-12 py-4 flex justify-between items-center z-30 sticky-header">
+<div class="w-full fixed top-0 px-12 py-4 flex justify-between items-center z-30 sticky-header {{request()-> routeIs('home') ? '' : 'general-header'}} ">
 	<div class="min-w-max">
-		<a href="">
-			<img width="150" src="./img/logo.png" alt="Logo">
+		<a href="{{route('home')}}">
+			<img width="150" src="/img/logo.png" alt="Logo">
 		</a>
 	</div>
 
